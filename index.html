@@ -64,7 +64,7 @@
 
   <!-- Second Splash Screen -->
   <div id="screen2" class="screen" style="display: none;">
-    <div class="message">Creds To Deadshot</div>
+    <div class="message">Original Game By Deadshot.io</div>
     <div class="loading-circle"></div>
   </div>
 
@@ -76,13 +76,13 @@
     setTimeout(() => {
       document.getElementById('screen1').style.display = 'none';
       document.getElementById('screen2').style.display = 'flex';
-    }, 1500);
+    }, 2000);
 
     // Show the second screen for 1.5 seconds, then transition to the iframe
     setTimeout(() => {
       document.getElementById('screen2').style.display = 'none';
       document.getElementById('iframe').style.display = 'block';
-    }, 3000);
+    }, 3500);
   </script>
 </body>
 </html>
